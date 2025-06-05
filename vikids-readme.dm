@@ -24,7 +24,7 @@
 
 ## 🖼️ Capturas de pantalla
 
-![Pagina principal de la web](imagene)
+![Pagina principal de la web](imagenes/pagina web vikids 1)
 
 
 - Página de catálogo  
