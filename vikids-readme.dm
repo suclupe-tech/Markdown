@@ -66,4 +66,55 @@ SistemVikids/
 ├── README.md
 
 
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/vikids.git
+2. Abre index.html en tu navegador para ver el catálogo.
+
+3. Accede a la carpeta /admin/ para ingresar al panel de administración.
+
+4. Personaliza productos, imágenes y estilos según tus necesidades.
+
+✅ Mejoras futuras
+ Carrito de compras con almacenamiento temporal.
+
+ Integración de base de datos (MySQL, Firebase, etc.).
+
+ Sistema de autenticación real para el administrador.
+
+ Notificaciones automáticas de nuevos pedidos.
+
+👩‍🎨 Autor
+ViKids - Ropa infantil con estilo, comodidad y amor.
+Desarrollado con el propósito de facilitar la compra de ropa para niñas y simplificar la gestión de productos.
+
+📄 Licencia
+Este proyecto está bajo la Licencia MIT.
+Consulta el archivo LICENSE para más información.
+MIT License
+
+Copyright (c) 2025 ViKids
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
