@@ -25,6 +25,8 @@
 ## 🖼️ Capturas de pantalla
 
 ![Pagina principal de la web](imagenes/pagina web vikids 1)
+![Catalogo](imagenes/pagina web vikids 2)
+![Ventana de descripcion del producto](imagenes/pagina web vikids 3)
 
 
 - Página de catálogo  
