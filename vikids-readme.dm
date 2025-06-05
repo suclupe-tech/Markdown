@@ -24,7 +24,8 @@
 
 ## 🖼️ Capturas de pantalla
 
-> *(Agrega aquí imágenes de tu sitio una vez esté en desarrollo)*
+![Pagina principal de la web](imagene)
+
 
 - Página de catálogo  
 - Envío por WhatsApp  
@@ -44,8 +45,12 @@
 ---
 
 ## 📁 Estructura del proyecto
-vikids/
-├── index.html # Página principal del catálogo
+SistemVikids/
+├──📁Web Pages
+   ├──📁META-INF
+   ├──📁WEB-INF
+   ├──📁imagen
+      ├── admin.html # Página del login del administrador
 ├── admin/
 │ ├── login.html # Inicio de sesión del administrador
 │ ├── dashboard.html # Panel de control
