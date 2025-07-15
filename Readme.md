@@ -43,7 +43,9 @@ Vikids es una empresa textil dedicada a la fabricación de prendas de vestir par
 
 <div align="center">
   <img width="400px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/pagina%20web%20vikids7.jpg?raw=true" width="800" />
-  <img width="400px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/pagina%20web%20vikids8.jpg?raw=true" width="800" />
+  <img width="400px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/Admin-CrearProducto.png?raw=true" width="800" />
+  <img width="400px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/Admin-ProducInac.png?raw=true" width="800" />
+  <img width="400px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/Admin-HistoVentas.png?raw=true" width="800" />
 
 </div>
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
@@ -74,7 +76,7 @@ Vikids es una empresa textil dedicada a la fabricación de prendas de vestir par
 2. Modelo físico
 
    ```sh
-   https://github.com/suclupe-tech/Vikids-web/blob/master/Modelo%20F%C3%ADsico.png?raw=true
+   https://github.com/suclupe-tech/Vikids-web/blob/master/src/main/webapp/database/bdvikids.sql?raw=true
    ```
 
 ## Código de la página web
