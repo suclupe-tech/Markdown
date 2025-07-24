@@ -65,18 +65,43 @@ Vikids es una empresa textil dedicada a la fabricación de prendas de vestir par
 - Agregar productos al carrito de compras (Debe tener un botón que permita al usuario agregar los productos de su preferencia.)
 - Eliminar productos del carrito de compras (Debe tener un icono en el carrito de compras que le permita al usuario eliminar los productos que ha agregado.)
 
+### Herramientas utilizadas
+
+- Java
+- SQL
+- Tomcat
+- CSS
+- Bootstrap
+- Jakarta
+
+### Librerias utilizadas
+
+1. Google Guava: Antes de proceder con la lógica de autenticación, debemos asegurarnos de que los datos ingresados por el usuario ('username' y 'password') sean válidos. Por ello, se utiliza la clase "Preconditions" de Guava, debido a que proporciona métodos útiles validar condiciones y lanzar excepciones si esas condiciones no se cumplen.
+- Preconditions.checkNotNull(username, "El usuario es obligatorio");
+en esta línea busca verificar que el username no sea null, en el caso sea null se debe lanzar una excepción NullPointerException con el mensaje "El usuario es obligatorio". Esto evita que el código continúe con valores nulos, lo cual podría causar errores más difíciles de detectar más adelante.
+- Preconditions.checkNotNull(password, "La contraseña es obligatoria");
+- Preconditions.checkArgument(!username.isBlank(), "El usuario esta vacio"); busca verificar que el username no esté vacío o solo tenga espacios en blanco. En caso se encuentre vacío lanzará una excepción IllegalArgumentException con el mensaje "El usuario esta vacio".
+- Preconditions.checkArgument(!password.isBlank(), "La contraseña esta vacia");
+- Preconditions.checkNotNull(nombre, "Nombre requerido");
+- Preconditions.checkNotNull(apellido, "Apellido requerido");
+- Preconditions.checkNotNull(usuario, "Usuario requerido");
+- Preconditions.checkNotNull(password, "Contraseña requerida");
+- Preconditions.checkNotNull(telefono, "Teléfono requerido");
+- public static final Cache<String, String> sessionCache = CacheBuilder.newBuilder()
+.expireAfterAccess(10, TimeUnit.MINUTES)
+.build(); "CacheBuilder.newBuilder()" crea un constructor para configurar el caché, al llamar a .expireAfterAccess(10, TimeUnit.MINUTES) se indica que las entradas en sessionCache expirarán si no se accede a ellas durante 10 minutos. Finalmente, .build() construye la instancia del caché.
+
+2. Hash: Se está usando la librería org.mindrot:jbcrypt para gestionar contraseñas de forma segura.
+- La función hashPassword() utiliza BCrypt.hashpw() para convertir una contraseña en texto plano en un hash seguro, que puede almacenarse en la base de datos.
+- La función checkPassword() usa BCrypt.checkpw() para comprobar si una contraseña en texto plano coincide con su hash almacenado, facilitando así la autenticación segura.
+
 ### Base de Datos
 
-1. Clona el repositorio
+1. Se añaden índices únicos no agrupados (NONCLUSTERED) en las tablas [cliente], [producto] y [administrador] para garantizar que los valores en los campos [dni], [codigo] y [usuario] sean únicos, evitando duplicados.
+2. Se establecen valores por defecto para varias columnas, como fechas (getdate()), estados ('Activo', 'Emitido') y otros indicadores (activo, publicado, descuento, igv) en las tablas [cliente], [producto], [venta] y [administrador]. Esto asegura que al insertar nuevos registros, estas columnas tengan valores automáticos si no se especifican.
 
    ```sh
-   git clone https://github.com/suclupe-tech/Vikids-web/blob/master/Base%20de%20Datos
-   ```
-
-2. Modelo físico
-
-   ```sh
-   https://github.com/suclupe-tech/Vikids-web/blob/master/src/main/webapp/database/bdvikids.sql?raw=true
+   https://github.com/suclupe-tech/Vikids-web/blob/master/src/main/webapp/database/bdvikids.sql
    ```
 
 ## Código de la página web
