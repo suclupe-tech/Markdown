@@ -8,7 +8,26 @@
 
 Vikids es una empresa textil dedicada a la fabricación de prendas de vestir para niñas de entre los 6 a 14 años, la página web representa a un escaparate digital para la visualización de jeans para niñas, este se encuentra diseñado para ser accesible por cualquier navegador web en computadoras y dispositivos móviles. Las ventas son finalizadas por whatsapp.
 </div>
-
+- Lean Canvas
+<img width="800px" src="https://github.com/suclupe-tech/Vikids-web/blob/master/LeanCanvas.png?raw=true" width="800" />
+- Project Charter
+<img width="800px" src="https://github.com/suclupe-tech/Vikids-web/blob/master/ProjectCharter.png?raw=true" width="800" />
+- Cronograma
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/Diagrama1.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/Diagrama2.1.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/Diagrama3.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/Diagrama4.png?raw=true" width="800" />
+- Casos de uso
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/C.U.%201.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/C.U.%202.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/C.U.%203.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/C.U.%204.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/C.U.%205.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/C.U.%206.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/C.U.%207.png?raw=true" width="800" />
+- BPM
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/BPM-Administrador.png?raw=true" width="800" />
+<img width="800px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/BPM-SolicitudPedido.png?raw=true" width="800" />
 <details>
 <summary>Tabla de contenidos</summary>
 
@@ -39,7 +58,7 @@ Vikids es una empresa textil dedicada a la fabricación de prendas de vestir par
   <img width="400px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/pagina%20web%20vikids6.jpg?raw=true" width="800" />
 </div>
 <p></p>
--**Vista del Administrador**
+- Vista del Administrador
 
 <div align="center">
   <img width="400px" src="https://github.com/suclupe-tech/Markdown/blob/main/imagenes/pagina%20web%20vikids7.jpg?raw=true" width="800" />
